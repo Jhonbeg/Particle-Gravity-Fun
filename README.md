@@ -1,7 +1,8 @@
-<<<<<<< HEAD
-# Particle-Gravity-Fun
-=======
 # 🌌 Quantum Flux: Particle Gravity Engine
+
+<p align="center">
+  <img src="./demo.gif" alt="Cosmic Particles" width="100%">
+</p>
 
 ![WASM Power](https://img.shields.io/badge/Powered_by-WebAssembly-orange?style=for-the-badge&logo=webassembly)
 ![Rust Core](https://img.shields.io/badge/Built_with-Rust-black?style=for-the-badge&logo=rust)
@@ -12,24 +13,19 @@
 
 ---
 
-## 🌟 Support My Work!
-
-**If you enjoy this project, please star the repository! It helps a lot!**  
-👇👇👇  
-**[github.com/yogender-ai/Particle-Gravity-Fun](https://github.com/yogender-ai/Particle-Gravity-Fun)**
-
----
-
 ## 🚀 Overview
 
-**Quantum Flux** is a high-performance, interactive particle simulation powered by a **Rust-compiled WebAssembly core**. It features 8,000 particles responding to hand gestures in real-time.
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=false&vCenter=false&width=500&lines=Quantum+Flux+is+a+high-performance;interactive+particle+simulation;powered+by+Rust+and+WebAssembly.;8%2C000+particles+responding+to+your+hand+gestures." alt="Typing SVG" /></a>
 
 ### ✨ Key Features
-*   **WASM-Powered Physics**: Core attraction and swarming logic runs in raw WebAssembly for maximum FPS.
-*   **Hand Tracking**: Control the swarm with your **Index Finger** using MediaPipe.
-*   **Gestures**: **Pinch** to trigger a cosmic color explosions.
-*   **Shape Shifting**: Morph particles into Hearts, Planets, Flowers, and Fireworks.
-*   **Security**: Heavily obfuscated client and opaque binary logic.
+
+| Feature | Description |
+| :--- | :--- |
+| **⚡ WASM Physics** | Core attraction and swarming logic runs in raw **WebAssembly** for maximum FPS. |
+| **✋ Hand Tracking** | Control the swarm with your **Index Finger** using MediaPipe. |
+| **🤏 Gestures** | **Pinch** to trigger a cosmic color explosion. |
+| **🪐 Shape Shifting** | Morph particles into Hearts, Planets, Flowers, and Fireworks. |
+| **🔒 Security** | Heavily obfuscated client and opaque binary logic. |
 
 ---
 
@@ -53,21 +49,23 @@ graph TD
     B -->|Three.js| D[Canvas Renderer];
 ```
 
-*   **Engine**: Rust (`no_std`, `wasm32-unknown-unknown`)
-*   **Renderer**: Three.js (WebGL)
-*   **Input**: MediaPipe Hands
-
 ---
 
 ## 👤 Author
 
 **Yogender**  
-*   [LinkedIn](https://www.linkedin.com/in/yogender1/)
-*   [GitHub](https://github.com/yogender-ai)
+*   [Connect on LinkedIn](https://www.linkedin.com/in/yogender1/)
 
 ---
 
 <p align="center">
-  <i>Created with ❤️ by Yogender-AI</i>
+  <h2>🌟 Support My Work!</h2>
+  <p>If you enjoy this project, please star the repository! It helps a lot!</p>
+  <a href="https://github.com/yogender-ai/Particle-Gravity-Fun">
+    <img src="https://img.shields.io/badge/⭐_Star_this_Repo-Thank_you!-yellow?style=for-the-badge" alt="Star Repo">
+  </a>
 </p>
->>>>>>> 3ac0ed2 (Quantum Flux: Particle Gravity Engine)
+
+<p align="center">
+  <i>Created with ❤️ by Yogender</i>
+</p>
