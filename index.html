@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quantum Flux</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #000;
+            font-family: 'Courier New', monospace;
+        }
+
+        canvas {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        #ui {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            display: flex;
+            gap: 15px;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 10px 20px;
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+        }
+
+        button {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: rgba(255, 255, 255, 0.7);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 10px;
+            letter-spacing: 2px;
+            transition: all 0.3s;
+        }
+
+        button:hover,
+        button.active {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #fff;
+            color: #fff;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #0ff;
+            font-size: 12px;
+            z-index: 100;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        .input_video {
+            display: none;
+        }
+
+        #instruction {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 12px;
+            pointer-events: none;
+            z-index: 5;
+        }
+
+        #footer {
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            text-align: right;
+            color: rgba(255, 255, 255, 0.3);
+            font-size: 10px;
+            z-index: 5;
+        }
+
+        #footer a {
+            color: rgba(255, 255, 255, 0.5);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        #footer a:hover {
+            color: #fff;
+        }
+
+        #socials {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 20;
+        }
+
+        .social-link {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            font-size: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 5px 10px;
+            border-radius: 5px;
+            background: rgba(0, 0, 0, 0.3);
+            transition: all 0.3s;
+        }
+
+        .social-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            border-color: #fff;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="loading">INITIALIZING SECURE CORE...</div>
+    <div id="instruction">Use [INDEX FINGER] to control particles. [PINCH] to change colors.</div>
+
+    <div id="socials">
+        <a href="https://github.com/yogender-ai/Particle-Gravity-Fun" target="_blank" class="social-link">★ Star on
+            GitHub</a>
+        <a href="https://www.linkedin.com/in/yogender1/" target="_blank" class="social-link">Connect on LinkedIn</a>
+    </div>
+
+    <video class="input_video"></video>
+    <div id="ui">
+        <button onclick="setShape('swarm')" class="active">Swarm</button>
+        <button onclick="setShape('heart')">Heart</button>
+        <button onclick="setShape('saturn')">Saturn</button>
+        <button onclick="setShape('flower')">Flower</button>
+        <button onclick="setShape('fireworks')">Fireworks</button>
+        <button onclick="toggleFullscreen()">[ ]</button>
+    </div>
+
+    <div id="footer">Created by Yogender</div>
+
+    <script src="app.min.js"></script>
+</body>
+
+</html>
