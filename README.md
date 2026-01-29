@@ -1,8 +1,16 @@
 # 🌌 Quantum Flux: Particle Gravity Engine
 
-<p align="center">
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/🚀_LAUNCH-ENTER_SIMULATION-00f7ff?style=for-the-badge&logo=rocket&logoColor=white)](https://particle-gravity-fun.pages.dev/)
+
+<a href="https://particle-gravity-fun.pages.dev/">
   <img src="./demo.gif" alt="Cosmic Particles" width="100%">
-</p>
+</a>
+
+
+
+</div>
 
 ![WASM Power](https://img.shields.io/badge/Powered_by-WebAssembly-orange?style=for-the-badge&logo=webassembly)
 ![Rust Core](https://img.shields.io/badge/Built_with-Rust-black?style=for-the-badge&logo=rust)
@@ -70,5 +78,6 @@ graph TD
 <p align="center">
   <i>Created with ❤️ by Yogender</i>
 </p>
+
 
 
