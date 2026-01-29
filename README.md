@@ -11,7 +11,7 @@
 
 > **"Experience the beauty of math and physics in your browser."**
 >
-> *This project is shared as a compiled demo for learning and inspiration.*
+> *⚠️ Source code is intentionally minimized and compiled. This repository focuses on the **demo and experience**, not raw implementation details.*
 ---
 
 ## 🚀 Overview
@@ -70,4 +70,5 @@ graph TD
 <p align="center">
   <i>Created with ❤️ by Yogender</i>
 </p>
+
 
