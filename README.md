@@ -10,7 +10,8 @@
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 > **"Experience the beauty of math and physics in your browser."**
-
+>
+> *This project is shared as a compiled demo for learning and inspiration.*
 ---
 
 ## 🚀 Overview
@@ -69,3 +70,4 @@ graph TD
 <p align="center">
   <i>Created with ❤️ by Yogender</i>
 </p>
+
