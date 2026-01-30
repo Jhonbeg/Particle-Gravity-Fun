@@ -1,167 +1,98 @@
-<<<<<<< HEAD
-# 🌌 Quantum Flux: Particle Gravity Engine
-
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🚀_LAUNCH-ENTER_SIMULATION-00f7ff?style=for-the-badge&logo=rocket&logoColor=white)](https://particle-gravity-fun.pages.dev/)
+# 🌌 **QUANTUM FLUX** 🌌
+### *Particle Gravity Engine*
+
+[![Live Demo](https://img.shields.io/badge/🚀_LAUNCH-ENTER_SIMULATION-00f7ff?style=for-the-badge&logo=rocket&logoColor=white&labelColor=black)](https://particle-gravity-fun.pages.dev/)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/yogender-ai/Particle-Gravity-Fun?style=for-the-badge&color=yellow)](https://github.com/yogender-ai/Particle-Gravity-Fun)
+
+<br />
 
 <a href="https://particle-gravity-fun.pages.dev/">
-  <img src="https://media.giphy.com/media/3o7btQ8jDaeEiqJiy4/giphy.gif" alt="Cosmic Particles" width="100%">
+  <img src="./demo.gif" alt="Quantum Flux Demo" width="100%" style="border-radius: 10px; box-shadow: 0 0 20px rgba(0, 247, 255, 0.5);">
 </a>
 
-### [👉 Click Here to Experience the Magic](https://particle-gravity-fun.pages.dev/)
+<br />
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=25&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Interactive+Particle+Physics;Powered+by+WebAssembly+&33;Rust;Hand+Tracking+via+MediaPipe;Experience+The+Cosmos..." alt="Typing SVG" />
+</a>
+
+<br />
+
+> [!CAUTION]
+> **⚠️ SOURCE CODE NOTICE**  
+> *The source code in this repository is intentionally minimized and compiled.*  
+> *This repository focuses on the **demo and experience**, not raw implementation details.*
+
+---
 
 </div>
 
-![WASM Power](https://img.shields.io/badge/Powered_by-WebAssembly-orange?style=for-the-badge&logo=webassembly)
-![Rust Core](https://img.shields.io/badge/Built_with-Rust-black?style=for-the-badge&logo=rust)
-![Three.js Visuals](https://img.shields.io/badge/Rendered_in-Three.js-white?style=for-the-badge&logo=three.js)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+## 🚀 **Experience The Magic**
 
-> **"Experience the beauty of math and physics in your browser."**
->
-> ⚠️ Source code is intentionally minimized and compiled. This repository focuses on the **demo and experience**, not raw implementation details.
+Quantum Flux is not just a simulation; it's an **interactive art piece**. It combines the raw performance of **Rust & WebAssembly** with the beauty of **Three.js** to create 8,000+ particles that react to your physical presence.
 
----
+### ✨ **Key Features**
 
-## 🚀 Overview
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=false&vCenter=false&width=500&lines=Quantum+Flux+is+a+high-performance;interactive+particle+simulation;powered+by+Rust+and+WebAssembly.;8%2C000+particles+responding+to+your+hand+gestures." alt="Typing SVG" /></a>
-
-### ✨ Key Features
+<div align="center">
 
 | Feature | Description |
 | :--- | :--- |
-| **⚡ WASM Physics** | Core attraction and swarming logic runs in raw **WebAssembly** for maximum FPS. |
-| **✋ Hand Tracking** | Control the swarm with your **Index Finger** using MediaPipe. |
-| **🤏 Gestures** | **Pinch** to trigger a cosmic color explosion. |
-| **🪐 Shape Shifting** | Morph particles into Hearts, Planets, Flowers, and Fireworks. |
-| **🔒 Security** | Heavily obfuscated client and opaque binary logic. |
+| **⚡ Hyper-Fast Physics** | swarming logic runs in **WASM** for smooth 60fps+ performance. |
+| **✋ AI Hand Tracking** | Control the universe with your **Index Finger**. |
+| **🤏 Cosmic Pinch** | **Pinch** to trigger a supernova of colors. |
+| **🪐 Shape Shifting** | Morph particles into Planets, Hearts, and Fireworks. |
+
+</div>
 
 ---
 
-## 🎮 How to Play
+## 🎮 **How to Play**
 
-1.  **Allow Camera Access**: The app needs to see your hand.
-2.  **Point your Index Finger**: The swarm will orbit your fingertip.
-3.  **Pinch (Index + Thumb)**: Watch the particles surge with energy and change color!
-4.  **Use UI Buttons**: Switch between formation modes (Heart, Saturn, etc.).
+1.  **🚀 [Click Here to Launch](https://particle-gravity-fun.pages.dev/)**
+2.  **📸 Allow Camera Access**: So the AI can see your hand.
+3.  **👆 Point your Index Finger**: Become the center of gravity.
+4.  **🤏 Pinch (Index + Thumb)**: Unleash chaotic energy!
 
 ---
 
-## 🛠️ Architecture
+## 🛠️ **Under The Hood**
 
 ```mermaid
-graph TD
-    A[User Hand] -->|MediaPipe| B(JS Client);
-    B -->|Coordinates| C{WASM Engine};
-    C -->|Physics Update| C;
-    C -->|Raw Memory View| B;
-    B -->|Three.js| D[Canvas Renderer];
+graph LR
+    A[🎥 Camera Input] -->|MediaPipe AI| B(👆 Hand Coordinates);
+    B -->|JS Bridge| C{🦀 Rust WASM Engine};
+    C -->|Physics Calculations| C;
+    C -->|Float32Array| D[🎨 Three.js Renderer];
+    D -->|WebGL| E[🖥️ Your Screen];
+    style C fill:#dea,stroke:#333,stroke-width:2px
+    style D fill:#aec,stroke:#333,stroke-width:2px
 ```
 
 ---
 
-## 👤 Author
-
-**Yogender**  
-*   [Connect on LinkedIn](https://www.linkedin.com/in/yogender1/)
-
----
-
-<p align="center">
-  <h2>🌟 Support My Work!</h2>
-  <p>If you enjoy this project, please star the repository! It helps a lot!</p>
-  <a href="https://github.com/yogender-ai/Particle-Gravity-Fun">
-    <img src="https://img.shields.io/badge/⭐_Star_this_Repo-Thank_you!-yellow?style=for-the-badge" alt="Star Repo">
-  </a>
-</p>
-
-<p align="center">
-  <i>Created with ❤️ by Yogender</i>
-</p>
-=======
-# 🌌 Quantum Flux: Particle Gravity Engine
-
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🚀_LAUNCH-ENTER_SIMULATION-00f7ff?style=for-the-badge&logo=rocket&logoColor=white)](https://particle-gravity-fun.pages.dev/)
+## 👤 **Connect With The Creator**
 
-<a href="https://particle-gravity-fun.pages.dev/">
-  <img src="./demo.gif" alt="Cosmic Particles" width="100%">
+<a href="https://www.linkedin.com/in/yogender1/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect_with_Yogender-0077B5?style=for-the-badge&logo=linkedin" alt="Connect on LinkedIn" />
 </a>
 
+<br />
+<br />
 
+### 🌟 **Enjoyed the experience?** 
+**Please star this repository to support future projects!**
+
+<a href="https://github.com/yogender-ai/Particle-Gravity-Fun">
+  <img src="https://img.shields.io/badge/⭐_Star_Repo-Thank_You!-FFD700?style=for-the-badge" alt="Star Repo">
+</a>
+
+<br />
+
+<i>Created with ❤️ and ☕ by Yogender</i>
 
 </div>
-
-![WASM Power](https://img.shields.io/badge/Powered_by-WebAssembly-orange?style=for-the-badge&logo=webassembly)
-![Rust Core](https://img.shields.io/badge/Built_with-Rust-black?style=for-the-badge&logo=rust)
-![Three.js Visuals](https://img.shields.io/badge/Rendered_in-Three.js-white?style=for-the-badge&logo=three.js)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
-> **"Experience the beauty of math and physics in your browser."**
->
-> *⚠️ Source code is intentionally minimized and compiled. This repository focuses on the **demo and experience**, not raw implementation details.*
----
-
-## 🚀 Overview
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=false&vCenter=false&width=500&lines=Quantum+Flux+is+a+high-performance;interactive+particle+simulation;powered+by+Rust+and+WebAssembly.;8%2C000+particles+responding+to+your+hand+gestures." alt="Typing SVG" /></a>
-
-### ✨ Key Features
-
-| Feature | Description |
-| :--- | :--- |
-| **⚡ WASM Physics** | Core attraction and swarming logic runs in raw **WebAssembly** for maximum FPS. |
-| **✋ Hand Tracking** | Control the swarm with your **Index Finger** using MediaPipe. |
-| **🤏 Gestures** | **Pinch** to trigger a cosmic color explosion. |
-| **🪐 Shape Shifting** | Morph particles into Hearts, Planets, Flowers, and Fireworks. |
-| **🔒 Security** | Heavily obfuscated client and opaque binary logic. |
-
----
-
-## 🎮 How to Play
-
-1.  **Allow Camera Access**: The app needs to see your hand.
-2.  **Point your Index Finger**: The swarm will orbit your fingertip.
-3.  **Pinch (Index + Thumb)**: Watch the particles surge with energy and change color!
-4.  **Use UI Buttons**: Switch between formation modes (Heart, Saturn, etc.).
-
----
-
-## 🛠️ Architecture
-
-```mermaid
-graph TD
-    A[User Hand] -->|MediaPipe| B(JS Client);
-    B -->|Coordinates| C{WASM Engine};
-    C -->|Physics Update| C;
-    C -->|Raw Memory View| B;
-    B -->|Three.js| D[Canvas Renderer];
-```
-
----
-
-## 👤 Author
-
-**Yogender**  
-*   [Connect on LinkedIn](https://www.linkedin.com/in/yogender1/)
-
----
-
-<p align="center">
-  <h2>🌟 Support My Work!</h2>
-  <p>If you enjoy this project, please star the repository! It helps a lot!</p>
-  <a href="https://github.com/yogender-ai/Particle-Gravity-Fun">
-    <img src="https://img.shields.io/badge/⭐_Star_this_Repo-Thank_you!-yellow?style=for-the-badge" alt="Star Repo">
-  </a>
-</p>
-
-<p align="center">
-  <i>Created with ❤️ by Yogender</i>
-</p>
-
-
-
->>>>>>> eb5787f571338c55ed4f84dd670d7094eb2286ad
